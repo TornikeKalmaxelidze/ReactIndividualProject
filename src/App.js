@@ -5,9 +5,11 @@ import NavBar from './components/NavBar/NavBar';
 
 function App() {
   return (
-    <div className="App" style={{display: 'flex', flexDirection: 'column',gap: "10px"  ,alignItems: 'center'}}>
+    <div className="min-h-screen w-full">
       <NavBar/>
-      <AppRoutes/>
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <AppRoutes/>
+      </div>
     </div>
   );
 }

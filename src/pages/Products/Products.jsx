@@ -1,14 +1,11 @@
 import React from 'react'
+import ProductsComponent from '../../components/Products/Products'
+
 
 const Products = () => {
-
-  return  <div>Products </div>
-        
-      
-    
-  
-    
-   
+  return (
+   <ProductsComponent/>
+    )
 }
 
 export default Products
